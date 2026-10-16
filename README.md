@@ -12,7 +12,7 @@ Este script te permite detectar quién no te sigue de vuelta en Instagram. Simpl
      
 4. **Pega el Código en la Consola:**
    - Copia todo el código proporcionado a continuación y pégalo en la consola del navegador.
-     ```
+```
      (async () => {
   const getCookie = (n) =>
     document.cookie.split('; ').find((c) => c.startsWith(n + '='))?.split('=')[1];
@@ -364,7 +364,7 @@ Este script te permite detectar quién no te sigue de vuelta en Instagram. Simpl
     console.error(e);
   }
 })();
-       ```
+```
      
 5. **Presiona Enter para Ejecutar el Script:**
    - Una vez que hayas pegado el código, presiona `Enter` para iniciar el script.
